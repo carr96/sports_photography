@@ -1,0 +1,93 @@
+/* CSS Document */
+
+body{
+	margin:0; 
+	padding:0; 
+	font-family: sans-serif;
+}
+
+.navbar, .navbar-expand-lg, .navbar-dark .bg-dark{
+	
+}
+
+.bg-dark {
+    background-color: #181818 !important;
+}
+.container-fluid{
+	padding-right:0px; 
+	padding-left:0px; 
+}
+
+#contact-us{
+	color: white; 
+}
+
+#breadcrumbs{
+	width: 90%; 
+	text-align: left; 
+	margin-left: 5%; 
+	margin-top: 1%; 
+}
+
+#breadcrumbs a{
+	color: black; 
+}
+
+#active-crumb{
+	text-decoration: underline; 
+}
+
+#header{
+	text-align: center; 
+}
+
+#gallery {
+	width: 100%;
+	margin: auto;
+  /* Prevent vertical gaps */
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 5;
+  -moz-column-gap: 0px;
+  column-count: 5;
+  column-gap: 0px;
+	margin-bottom: 5%; 
+}
+
+#gallery img {
+  /* Just in case there are inline attributes */
+  width: 100%;
+  height: auto;
+}
+
+footer{
+	background-color: #181818;
+	text-align: center; 
+	color: white; 
+}
+
+footer a{
+	color: white; 
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+footer a:hover{
+	color:#FCFCFC;
+}
+
+@media only screen and (max-width: 700px) {
+	
+	#gallery {
+	  -webkit-column-count: 2;
+	  -moz-column-count:2;
+	  column-count: 2;
+	  margin-bottom: 5%; 
+	}
+	
+	footer{
+
+	}
+	
+}

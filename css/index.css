@@ -1,0 +1,188 @@
+/* CSS Document */
+
+body{
+	margin:0; 
+	padding:0; 
+	font-family: sans-serif;
+}
+
+.navbar, .navbar-expand-lg, .navbar-dark .bg-dark{
+	z-index: 1;
+	opacity: .9;
+}
+
+.bg-dark {
+    background-color: #181818 !important;
+}
+
+#contact-us{
+	color: white; 
+}
+
+.container-fluid{
+	padding-left: 0px; 
+	padding-right: 0px; 
+}
+
+#hero{
+	position: relative; 
+	width: 100%;
+	height: 100vh;
+	
+	background: 
+    linear-gradient(
+      rgba(0, 0, 0, .6), 
+      rgba(0, 0, 0, .6)
+    ),
+    url(../images/nba/rodman-dive.webp);
+	
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	text-align: center; 
+}
+
+#hero-content{
+	color: white; 
+ 	position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                         translateX(-50%) and translateY(-50%) */
+}
+
+#hero-content h2{
+	margin-bottom: 5%; 
+}
+
+#hero-content h4{
+	margin-bottom: 5%; 
+}
+
+#hero-content a{
+	color: black;
+	width: 60%; 
+	font-size:120%;
+	padding: 2% 10%; 
+	border-radius: 50px; 
+	border:none;
+	background: linear-gradient(rgb(249,179,0), rgb(239,169,0));
+	box-shadow: 5px 10px 50px black;
+}
+
+#hero-content a:hover{
+	text-decoration: none; 
+	filter: brightness(95%);
+}
+
+#testimonies{
+	color: black; 
+	width: 100%; 
+	position: absolute;
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+	bottom: 0; 
+	opacity: .8;
+	background-color: white; 
+	padding: .5%; 
+}
+
+ #testimonies img{
+	width: 80%;
+}
+
+#quote{
+	font-style: italic;
+	width: 20%; 
+	margin-left: -5%;
+	padding: .5%; 
+}
+
+#card-content{
+	width: 90%; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 3% auto; 
+}
+
+.card{
+	margin-bottom: 3%; 
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+
+.card .card-body{
+	text-align: center;
+}
+
+.card img{
+	width: 100%; 
+	height: 200px; 
+}
+
+.card a{
+	background-color: white;
+	border-color:#181818; 
+	color:black; 
+}
+
+.card a:hover{
+	background-color: #181818;
+	color: white; 
+	border-color:#181818; 
+
+}
+
+.card a:active{
+	background-color: #181818;
+	color: white; 
+	border-color:#181818; 
+}
+
+footer{
+	background-color: #181818;
+	text-align: center; 
+	color: white; 
+}
+
+footer a{
+	color: white; 
+	margin-right: 1%;
+	margin-left: 1%;
+}
+
+footer a:hover{
+	color:#FCFCFC;
+}
+
+@media only screen and (max-width: 700px) {
+	
+	body{
+		
+	}
+	
+	#hero{
+		
+	}
+	#hero-content{
+		z-index: ;
+	}
+	
+	#testimonies{
+		padding-left: 5%; 
+		padding-right: 5%; 
+	}
+	
+	#testimonies img{
+		
+	}
+	
+	#quote{
+		font-size: 80%;
+		width: 100%;
+	}
+}
