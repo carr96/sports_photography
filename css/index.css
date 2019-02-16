@@ -177,7 +177,7 @@ footer a:hover{
 	}
 
 	#hero-content a{
-		padding: 1.5% 8%; 
+		padding: 1.5% 8%;
 	}
 
 	#testimonies{
@@ -192,5 +192,10 @@ footer a:hover{
 	#quote{
 		font-size: 80%;
 		width: 100%;
+	}
+
+	.card{
+		margin: auto;
+		margin-bottom: 5%; 
 	}
 }
